@@ -49,7 +49,7 @@ else:
 
 # write script below this line
 
-# calculate longitude
+# calculate longitude and convert to degrees
 lon_rad = math.atan2(r_y_km,r_x_km)
 lon_deg = lon_rad*180.0/math.pi
 
